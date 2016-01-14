@@ -8,8 +8,14 @@
     "watch": "babel ./lib -w -d dist",
     "test": "babel-tape-runner test/*.js"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "browserify-transform",
+    "module-exports",
+    "declare",
+    "variable"
+  ],
+  "author": "Aram Drevekenin",
+  "license": "MIT",
   "dependencies": {
     "through2": "^2.0.0"
   },
