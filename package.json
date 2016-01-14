@@ -33,5 +33,9 @@
       "es2015",
       "stage-2"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imsnif/declareify"
   }
 }
