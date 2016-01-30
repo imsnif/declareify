@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = function (file) {
   return (0, _through2.default)(function (buf, enc, next) {
     var string = buf.toString('utf8');
-    var result = string.replace(/module.exports\s*=\s*(.+?)\s*=/, "var $1 \nmodule.exports = $1 =");
+    var result = string.replace(/module.exports\s*=\s*([^.\n]+?)\s*=/, "var $1 \nmodule.exports = $1 =");
     this.push(result);
     next();
   });
