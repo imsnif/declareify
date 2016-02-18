@@ -1,6 +1,6 @@
 {
   "name": "declareify",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Browserify transform to declare undeclared module.exports variables",
   "main": "index.js",
   "scripts": {
